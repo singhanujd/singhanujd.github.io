@@ -30,7 +30,6 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
 
     padding: 16px;
     min-height: 100vh;
@@ -46,6 +45,7 @@ body {
     border: 1px solid var(--bg-tertiary);
     border-radius: 12px;
     box-shadow: 0 4px 10px var(--shadow);
+    margin-top: 200px;
 }
 
 .profile-card__header {
