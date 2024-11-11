@@ -2,35 +2,38 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Testimonial Card</title>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="img/favicon.ico" sizes="any" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.ico" sizes="any">
 </head>
 
 <body>
   <main class="container">
-    <article class="profile-card">
-      <header class="profile-card__header">
-        <div class="profile-card__avatar">
-          <img src="./img/profile-thumbnail.png" alt="Avatar of Sarah Dole" aria-label="Sarah Dole avatar" />
-        </div>
-        <div class="profile-card__user-info">
-          <h1 class="profile-card__username">Sarah Dole</h1>
-          <p class="profile-card__handle">@sarahdole</p>
-        </div>
-      </header>
-      <section class="profile-card__content">
-        <p class="profile-card__text">
-          I’ve been searching for high-quality abstract images for my design
-          projects, and I’m thrilled to have found this platform. The variety
-          and depth of creativity are astounding!
+    <article class="card">
+      <figure class="card__img">
+        <img src="./img/spacejoy-YqFz7UMm8qE-unsplash.jpg" alt="Decorated Home">
+      </figure>
+      <div class="card__content">
+        <span class="card__tag">Interior</span>
+        <h1 class="card__heading">Top 5 Living Room Inspirations</h1>
+        <p class="card__desc">
+          Curated vibrant colors for your living room that make it pop and calm at the same time.
         </p>
-      </section>
+        <a class="card__actions" href="#">
+          Read more
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"/>
+          </svg>
+        </a>
+      </div>
     </article>
   </main>
+  
 </body>
 
 </html>
